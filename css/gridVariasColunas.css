@@ -1,0 +1,24 @@
+
+
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+justify-items: center;
+align-items:center;
+}
+
+
+.grid-container p {
+    border: solid purple;
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.grid-container img{
+    width: 100px;
+   border: solid rgb(223, 20, 132);
+   padding: 1rem;
+   border-radius: 5%;
+   
+}
